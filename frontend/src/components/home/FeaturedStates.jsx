@@ -1,11 +1,11 @@
-import andhra from "../../assets/images/states/andhra-pradesh.jpg";
-import telangana from "../../assets/images/states/telangana.jpg";
-import rajasthan from "../../assets/images/states/rajasthan.jpg";
-import gujarat from "../../assets/images/states/gujarat.jpg";
-import karnataka from "../../assets/images/states/karnataka.jpg";
-import kerala from "../../assets/images/states/kerala.jpg";
-import tamilnadu from "../../assets/images/states/tamilnadu.jpg";
-import westbengal from "../../assets/images/states/westbengal.jpg";
+import andhra from "../../assets/images/states/andhra-pradesh.png";
+import telangana from "../../assets/images/states/telangana.png";
+import rajasthan from "../../assets/images/states/rajasthan.png";
+import gujarat from "../../assets/images/states/gujarat.png";
+import karnataka from "../../assets/images/states/karnataka.png";
+import kerala from "../../assets/images/states/kerala.png";
+import tamilnadu from "../../assets/images/states/tamilnadu.png";
+import westbengal from "../../assets/images/states/westbengal.png";
 
 const states = [
   {
