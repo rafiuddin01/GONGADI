@@ -545,3 +545,401 @@ img{
 }
 
 }
+
+
+/* ===============================
+SHOP BY CRAFT
+================================= */
+
+.shop-craft{
+    padding:90px 60px;
+    background:#f8f3eb;
+}
+
+.craft-grid{
+
+    max-width:1300px;
+
+    margin:auto;
+
+    display:grid;
+
+    grid-template-columns:repeat(4,1fr);
+
+    gap:30px;
+}
+
+.craft-card{
+
+    background:white;
+
+    border-radius:20px;
+
+    padding:35px;
+
+    text-align:center;
+
+    transition:.3s;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+
+    cursor:pointer;
+}
+
+.craft-card:hover{
+
+    transform:translateY(-10px);
+
+    background:#9b541b;
+
+    color:white;
+}
+
+.craft-icon{
+
+    font-size:50px;
+
+    margin-bottom:20px;
+
+    color:#9b541b;
+}
+
+.craft-card:hover .craft-icon{
+
+    color:white;
+}
+
+.craft-card h3{
+
+    margin-bottom:10px;
+
+    font-size:24px;
+}
+
+.craft-card p{
+
+    color:#777;
+}
+
+.craft-card:hover p{
+
+    color:#fff;
+}
+
+@media(max-width:1000px){
+
+.craft-grid{
+
+grid-template-columns:repeat(2,1fr);
+
+}
+
+}
+
+@media(max-width:768px){
+
+.shop-craft{
+
+padding:60px 20px;
+
+}
+
+.craft-grid{
+
+grid-template-columns:1fr;
+
+}
+
+}
+
+
+
+/* ===============================
+TRENDING PRODUCTS
+================================= */
+
+.trending-products{
+    padding:90px 60px;
+    background:#ffffff;
+}
+
+.products-grid{
+    max-width:1400px;
+    margin:auto;
+
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:30px;
+}
+
+.product-box{
+    background:white;
+    border-radius:20px;
+    overflow:hidden;
+    position:relative;
+
+    box-shadow:0 12px 25px rgba(0,0,0,.08);
+
+    transition:.4s;
+}
+
+.product-box:hover{
+    transform:translateY(-10px);
+}
+
+.product-box img{
+    width:100%;
+    height:250px;
+    object-fit:cover;
+}
+
+.wishlist{
+    position:absolute;
+    top:15px;
+    right:15px;
+
+    background:white;
+
+    width:40px;
+    height:40px;
+
+    border-radius:50%;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    color:#9b541b;
+
+    cursor:pointer;
+}
+
+.product-details{
+    padding:20px;
+}
+
+.product-details small{
+    color:#888;
+}
+
+.product-details h3{
+    margin:10px 0;
+    color:#3d2b1f;
+}
+
+.rating{
+    color:gold;
+    margin:12px 0;
+}
+
+.product-details h4{
+    color:#9b541b;
+    font-size:24px;
+}
+
+.product-details button{
+    width:100%;
+    margin-top:15px;
+
+    background:#9b541b;
+    color:white;
+
+    border:none;
+
+    padding:14px;
+
+    border-radius:10px;
+
+    font-size:16px;
+
+    cursor:pointer;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:10px;
+}
+
+.product-details button:hover{
+    background:#7b4315;
+}
+
+@media(max-width:1000px){
+
+.products-grid{
+grid-template-columns:repeat(2,1fr);
+}
+
+}
+
+@media(max-width:768px){
+
+.products-grid{
+grid-template-columns:1fr;
+}
+
+.trending-products{
+padding:60px 20px;
+}
+
+}
+
+
+
+
+/* ===============================
+FEATURED ARTISANS
+================================= */
+
+.featured-artisans{
+    padding:90px 60px;
+    background:#f8f3eb;
+}
+
+.artisan-grid{
+
+    max-width:1400px;
+
+    margin:auto;
+
+    display:grid;
+
+    grid-template-columns:repeat(3,1fr);
+
+    gap:35px;
+}
+
+.artisan-card{
+
+    background:white;
+
+    border-radius:20px;
+
+    padding:30px;
+
+    text-align:center;
+
+    transition:.3s;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+}
+
+.artisan-card:hover{
+
+    transform:translateY(-10px);
+}
+
+.artisan-card img{
+
+    width:150px;
+    height:150px;
+
+    border-radius:50%;
+
+    object-fit:cover;
+
+    margin-bottom:20px;
+
+    border:5px solid #9b541b;
+}
+
+.artisan-card h3{
+
+    color:#3d2b1f;
+
+    margin-bottom:8px;
+}
+
+.artisan-card h4{
+
+    color:#9b541b;
+
+    margin-bottom:15px;
+}
+
+.artisan-card p{
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:8px;
+
+    color:#666;
+
+    margin-bottom:15px;
+}
+
+.artisan-rating{
+
+    color:gold;
+
+    margin-bottom:15px;
+}
+
+.artisan-card span{
+
+    display:inline-block;
+
+    background:#f5e8dc;
+
+    color:#9b541b;
+
+    padding:8px 18px;
+
+    border-radius:30px;
+
+    font-size:14px;
+
+    margin-bottom:20px;
+}
+
+.artisan-card button{
+
+    width:100%;
+
+    padding:14px;
+
+    background:#9b541b;
+
+    color:white;
+
+    border:none;
+
+    border-radius:10px;
+
+    cursor:pointer;
+
+    font-size:16px;
+}
+
+.artisan-card button:hover{
+
+    background:#7b4315;
+}
+
+@media(max-width:1000px){
+
+.artisan-grid{
+
+grid-template-columns:repeat(2,1fr);
+
+}
+
+}
+
+@media(max-width:768px){
+
+.featured-artisans{
+
+padding:60px 20px;
+
+}
+
+.artisan-grid{
+
+grid-template-columns:1fr;
+
+}
+
+}
